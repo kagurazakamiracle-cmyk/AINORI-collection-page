@@ -1111,12 +1111,12 @@
 			background-color: #a9e5e3
 		}
 
-		.bee-row-5 .bee-col-1 .bee-block-1 a {
-			background-color: #a686ff
-		}
-
 		.bee-row-5 .bee-col-2 .bee-block-1 a {
 			background-color: #fff08e
+		}
+
+		.bee-row-5 .bee-col-1 .bee-block-1 a {
+			background-color: #a686ff
 		}
 
 		.bee-row-5 .bee-col-3 .bee-block-1 a {
@@ -1519,19 +1519,37 @@
 			text-align: center
 		}
 
-		.bee-row-40 .bee-col-2 .bee-block-2 h2,
 		.bee-row-40 .bee-col-2 .bee-block-4 {
-			text-align: center;
+			color: #181d2c;
 			direction: ltr;
-			font-family: Lato, Tahoma, Verdana, Segoe, sans-serif
+			font-family: Lato, Tahoma, Verdana, Segoe, sans-serif;
+			font-size: 20px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 150%;
+			text-align: center
+		}
+
+		.bee-row-40 .bee-col-2 .bee-block-4 a {
+			color: #8a3b8f
+		}
+
+		.bee-row-40 .bee-col-2 .bee-block-2 h2,
+		.bee-row-41 .bee-col-1 .bee-block-4,
+		.bee-row-41 .bee-col-2 .bee-block-4,
+		.bee-row-41 .bee-col-3 .bee-block-4,
+		.bee-row-44 .bee-col-1 .bee-block-2 h1 {
+			direction: ltr;
+			font-family: Lato, Tahoma, Verdana, Segoe, sans-serif;
+			text-align: center;
+			line-height: 120%
 		}
 
 		.bee-row-40 .bee-col-2 .bee-block-2 h2 {
 			color: #ff6380;
 			font-size: 35px;
 			font-weight: 900;
-			letter-spacing: normal;
-			line-height: 120%
+			letter-spacing: normal
 		}
 
 		.bee-row-41 .bee-col-1 .bee-block-1 .bee-icon-image,
@@ -1550,16 +1568,17 @@
 			margin-right: 0
 		}
 
-		.bee-row-40 .bee-col-2 .bee-block-4 {
-			color: #181d2c;
-			font-size: 20px;
+		.bee-row-41 .bee-col-1 .bee-block-4,
+		.bee-row-41 .bee-col-2 .bee-block-4,
+		.bee-row-41 .bee-col-3 .bee-block-4 {
+			color: #101112;
+			font-size: 16px;
 			font-weight: 400;
-			letter-spacing: 0;
-			line-height: 150%
+			letter-spacing: 0
 		}
 
-		.bee-row-40 .bee-col-2 .bee-block-4 a {
-			color: #8a3b8f
+		.bee-row-41 .bee-col-2 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
 		}
 
 		.bee-row-41 .bee-col-1 .bee-block-3 h3,
@@ -1573,23 +1592,6 @@
 			letter-spacing: normal;
 			line-height: 120%;
 			text-align: center
-		}
-
-		.bee-row-41 .bee-col-1 .bee-block-4,
-		.bee-row-41 .bee-col-2 .bee-block-4,
-		.bee-row-41 .bee-col-3 .bee-block-4 {
-			color: #101112;
-			direction: ltr;
-			font-family: Lato, Tahoma, Verdana, Segoe, sans-serif;
-			font-size: 16px;
-			font-weight: 400;
-			letter-spacing: 0;
-			line-height: 120%;
-			text-align: center
-		}
-
-		.bee-row-41 .bee-col-2 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
-			margin-right: 0
 		}
 
 		.bee-row-41 .bee-col-3 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
@@ -1612,13 +1614,9 @@
 
 		.bee-row-44 .bee-col-1 .bee-block-2 h1 {
 			color: #ddff00;
-			direction: ltr;
-			font-family: Lato, Tahoma, Verdana, Segoe, sans-serif;
 			font-size: 18px;
 			font-weight: 700;
-			letter-spacing: 1px;
-			line-height: 120%;
-			text-align: center
+			letter-spacing: 1px
 		}
 
 		.bee-row-44 .bee-col-2 .bee-block-4 a,
@@ -1629,6 +1627,13 @@
 			letter-spacing: 0
 		}
 
+		.bee-row-44 .bee-col-3 .bee-block-1 {
+			color: #ffffff;
+			font-size: 21px;
+			line-height: 120%;
+			text-align: left
+		}
+
 		.bee-row-44 .bee-col-2 .bee-block-4 a {
 			background-color: #ddff00;
 			border-radius: 4px;
@@ -1637,13 +1642,6 @@
 			line-height: 200%;
 			padding: 5px 20px;
 			width: auto
-		}
-
-		.bee-row-44 .bee-col-3 .bee-block-1 {
-			color: #ffffff;
-			font-size: 21px;
-			line-height: 120%;
-			text-align: left
 		}
 
 		@media (max-width:768px) {
@@ -1849,6 +1847,39 @@
 				line-height: auto !important
 			}
 
+			.bee-row-1 .bee-col-2 .bee-block-1,
+			.bee-row-12 .bee-col-1 .bee-block-1,
+			.bee-row-20 .bee-col-2 .bee-block-1,
+			.bee-row-22 .bee-col-2 .bee-block-1,
+			.bee-row-25 .bee-col-2 .bee-block-1,
+			.bee-row-27 .bee-col-2 .bee-block-1,
+			.bee-row-29 .bee-col-2 .bee-block-1,
+			.bee-row-31 .bee-col-2 .bee-block-1,
+			.bee-row-33 .bee-col-2 .bee-block-1,
+			.bee-row-35 .bee-col-2 .bee-block-1,
+			.bee-row-37 .bee-col-2 .bee-block-1,
+			.bee-row-39 .bee-col-1 .bee-block-1,
+			.bee-row-7 .bee-col-2 .bee-block-1,
+			.bee-row-9 .bee-col-2 .bee-block-1 {
+				padding: 10px;
+				text-align: center
+			}
+
+			.bee-row-1 .bee-col-2 .bee-block-1 h1,
+			.bee-row-20 .bee-col-6 .bee-block-1,
+			.bee-row-22 .bee-col-6 .bee-block-1,
+			.bee-row-25 .bee-col-6 .bee-block-1,
+			.bee-row-27 .bee-col-6 .bee-block-1,
+			.bee-row-29 .bee-col-6 .bee-block-1,
+			.bee-row-3 .bee-col-2 .bee-block-1,
+			.bee-row-31 .bee-col-6 .bee-block-1,
+			.bee-row-33 .bee-col-6 .bee-block-1,
+			.bee-row-35 .bee-col-6 .bee-block-1,
+			.bee-row-7 .bee-col-6 .bee-block-1,
+			.bee-row-9 .bee-col-6 .bee-block-1 {
+				text-align: center
+			}
+
 			.bee-row-1 .bee-col-1 .bee-block-1,
 			.bee-row-12 .bee-col-1 .bee-block-3,
 			.bee-row-20 .bee-col-2 .bee-block-3,
@@ -1883,39 +1914,6 @@
 			.bee-row-9 .bee-col-2 .bee-block-3 img {
 				float: none !important;
 				margin: 0 auto !important
-			}
-
-			.bee-row-1 .bee-col-2 .bee-block-1,
-			.bee-row-12 .bee-col-1 .bee-block-1,
-			.bee-row-20 .bee-col-2 .bee-block-1,
-			.bee-row-22 .bee-col-2 .bee-block-1,
-			.bee-row-25 .bee-col-2 .bee-block-1,
-			.bee-row-27 .bee-col-2 .bee-block-1,
-			.bee-row-29 .bee-col-2 .bee-block-1,
-			.bee-row-31 .bee-col-2 .bee-block-1,
-			.bee-row-33 .bee-col-2 .bee-block-1,
-			.bee-row-35 .bee-col-2 .bee-block-1,
-			.bee-row-37 .bee-col-2 .bee-block-1,
-			.bee-row-39 .bee-col-1 .bee-block-1,
-			.bee-row-7 .bee-col-2 .bee-block-1,
-			.bee-row-9 .bee-col-2 .bee-block-1 {
-				padding: 10px;
-				text-align: center
-			}
-
-			.bee-row-1 .bee-col-2 .bee-block-1 h1,
-			.bee-row-20 .bee-col-6 .bee-block-1,
-			.bee-row-22 .bee-col-6 .bee-block-1,
-			.bee-row-25 .bee-col-6 .bee-block-1,
-			.bee-row-27 .bee-col-6 .bee-block-1,
-			.bee-row-29 .bee-col-6 .bee-block-1,
-			.bee-row-3 .bee-col-2 .bee-block-1,
-			.bee-row-31 .bee-col-6 .bee-block-1,
-			.bee-row-33 .bee-col-6 .bee-block-1,
-			.bee-row-35 .bee-col-6 .bee-block-1,
-			.bee-row-7 .bee-col-6 .bee-block-1,
-			.bee-row-9 .bee-col-6 .bee-block-1 {
-				text-align: center
 			}
 
 			.bee-row-12 .bee-col-1 .bee-block-1 h3,
